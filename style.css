@@ -56,7 +56,7 @@ h1 {
 
   @media (max-width:768px){
     .keyboard-button{
-      font-size: 1px;
+      font-size: 10px;
       padding-top: 20px;
       padding-bottom: 20px;
       margin: 0 1px;
