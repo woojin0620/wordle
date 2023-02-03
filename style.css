@@ -1,12 +1,12 @@
-@media (max-width:500px){
+@media (max-width:600px){
   #keyboard-cont{
-    width: 400px;
+    max-width: 400px;
   }
   #game-board{
-    width: 400px;
+    max-width: 400px;
   }
   h1{
-    width: 400px;
+    max-width: 400px;
   }
 }
 
