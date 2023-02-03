@@ -54,8 +54,11 @@ h1 {
     text-transform: uppercase;
   }
 
-  @media (max-width:600px){
+  @media (max-width:768px){
     .keyboard-button{
-      font-size: 12px;
+      font-size: 1px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin: 0 1px;
     }
   }
