@@ -1,0 +1,1 @@
+export const WORDS = ["squid","space","mouse","clean","apple","bloom","cream","dance","fable","grace","hazel","lemon","night","oasis","peace","robot","sugar","quilt","class"];
