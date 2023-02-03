@@ -1,3 +1,16 @@
+@media (max-width:600px){
+  #keyboard-cont{
+    width: 500px;
+  }
+  #game-board{
+    width: 500px;
+  }
+  h1{
+    width: 500px;
+  }
+}
+
+
 h1 {
     text-align: center;
 }
