@@ -1,16 +1,3 @@
-@media (max-width:600px){
-  #keyboard-cont{
-    max-width: 400px;
-  }
-  #game-board{
-    max-width: 400px;
-  }
-  h1{
-    max-width: 400px;
-  }
-}
-
-
 h1 {
     text-align: center;
 }
@@ -65,4 +52,10 @@ h1 {
     margin: 0 2px;
     cursor: pointer;
     text-transform: uppercase;
+  }
+
+  @media (max-width:600px){
+    body{
+      width: 400px;
+    }
   }
