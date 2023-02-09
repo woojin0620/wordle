@@ -7,6 +7,10 @@ input, textarea, button {
   -moz-border-radius: 0;
 }
 
+body{
+  touch-action: pan-y;
+}
+
 h1 {
     text-align: center;
 }
