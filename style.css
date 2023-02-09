@@ -1,3 +1,12 @@
+input, textarea, button {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+}
+
 h1 {
     text-align: center;
 }
@@ -46,6 +55,7 @@ h1 {
   }
   
   .keyboard-button {
+    color: black;
     font-size: 1rem;
     font-weight: 700;
     padding: 0.5rem;
