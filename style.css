@@ -1,0 +1,153 @@
+input, textarea, button {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+}
+
+body{
+  touch-action: pan-y;
+  touch-action: manipulation;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+button#howplay{
+  position: absolute;
+  float: right;
+  font-size: 30px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  padding: 0px 9px 0px 9px;
+  margin-left: 25%;
+}
+
+button#howplay:hover{
+  color: black;
+  background-color: white;
+  transition: 0.5s;
+}
+
+#game-board {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .letter-box {
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  .filled-box {
+    border: 2px solid black;
+  }
+  
+  .letter-row {
+    display: flex;
+  }
+
+  #keyboard-cont {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #keyboard-cont div {
+    display: flex;
+  }
+  
+  .second-row {
+    margin: 0.5rem 0;
+  }
+  
+  .keyboard-button {
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin: 0 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  @media (max-width:768px){
+    .keyboard-button{
+      font-size: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin: 0 1px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .wordle-char {
+    width: 3rem;
+    height: 3rem;
+    display: grid;
+    place-content: center;
+    border: 2px solid #444;
+    padding: 1rem;
+    margin: 8px;
+      
+    color: transparent;
+  }
+  
+  .yellow {
+    background-color: #c9b458;
+    border-color: #c9b458;
+    color: #f0f0f0;
+  }
+  
+  .green {
+    background-color: #6aaa64;
+    border-color: #6aaa64;
+    color: #f0f0f0;
+  }
+  
+  .blank {
+    background-color: #8c8888;
+    border-color: #8c8888;
+    color: #000000;
+  }
+  
+  .wordle-char:hover, .reveal {
+    animation-name: reveal;
+    animation-duration: .5s; 
+  }
+  
+  @keyframes reveal {
+    0% {
+      transform: scaleY(1);
+    }
+    50% {
+      transform: scaleY(.1); 
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
